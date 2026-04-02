@@ -1,0 +1,19 @@
+# 运行
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
+
+# LangGraph / LangChain
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+
+# 阿里云千问 + 词向量
+dashscope>=1.20.0
+
+# MCP：自建服务与 LangGraph 侧连接
+mcp>=1.0.0
+fastmcp>=0.1.0
+langchain-mcp-adapters>=0.1.0
